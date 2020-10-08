@@ -11,24 +11,29 @@ This repository provides a basic sample code that can help you populate a Redis 
 
 ## Steps
 
-### 0 Open a terminal
+### Open a terminal
 
-### 1 Clone the repository
+Navigate through the place where you want to checkout this source code
+
+### Clone the repository
 
 ```
-git clone https://github.com/slemeur/redis-populateDB-sample.git
+$> git clone https://github.com/slemeur/redis-populateDB-sample.git
+
+$> cd redis-populateDB-sample
+
 ```
 
-### 2 Open the project in your IDE
+### Open the project in your IDE
 
 Open a If you are using VSCode:
 ```
-username> code .
+$> code .
 ```
 
 When opening VSCode, it will ask if you want to install Java tooling (if you don't have it already), install it.
 
-### 3 Make sure to connect your database
+### Make sure to connect your database
 
 Open the file `PopulateSample001.java` in the folder `/redis-populateDB-sample/src/main/java/io/redis/populate/`
 
